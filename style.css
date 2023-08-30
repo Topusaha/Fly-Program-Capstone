@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+a {
+    color: #f9faf8;
+}
 
 .header {
     color: #f9faf8; 
@@ -16,6 +19,11 @@
     margin-right: 175px;
     padding: 20px;
 }
+
+.header_logo {
+    padding: 5px;
+}
+
 
 ul {
     padding: 10px;
@@ -60,10 +68,16 @@ a {
     max-height: 200px;
 }
 
-.right img {
-    width: 400px; 
+img {
+    width: 300px; 
     height: auto;
     max-height: 300px;
+    margin-right: 25px; 
+}
+
+iframe {
+    width: 400px; 
+    height: 250px;
     margin-right: 25px; 
 }
 
@@ -78,6 +92,7 @@ a {
 .section2 {
     display: flex;
     flex-direction: column;
+    height: 400px;
 }
 
 .section2_title {
@@ -87,10 +102,10 @@ a {
 
 .boxes {
     color: #1F2937; 
-    font-size: 18px; 
+    font-size: 23px; 
     display: flex;
     justify-content: center; 
-    gap: 50px;
+    gap: 60px;
 }
 
 .square {
@@ -100,7 +115,90 @@ a {
     border-radius: 10px;
 }
 
+.signup_section {
+    background-color: white;
+    height: 200px;
+}
+
+.signup {
+    background-color: #3882f6;
+    display: flex;
+    height: 100px;
+    margin: 100px 100px;
+    justify-content: center;
+    border: 5px solid #1F2937;
+}
+
+.signup__button {
+    margin: 25px 25px;
+    border: 1px solid white;
+    background-color: #3882f6;
+    width: 100px; 
+    height: 25px;
+    
+}
+
+.sign-up_logo {
+    color: black;
+    text-align: center;
+    padding: 3px;
+    font-weight: extra-bold;
+}
+
+.text {
+    margin: 25px 25px;
+    color: white;
+
+}
+
+.call_to_action_main{
+    font-size: 24px;
+}
+
+.sub {
+    font-size: 12px;
+}
+
+
+
 .boxes img {
     width: 200px; 
     height: 200px; 
+}
+
+.testimonies {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 400px;
+}
+
+.testimonies_title {
+    margin: 30px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #1F2937;
+
+}
+
+.quote {
+    font-size: 28px;
+    color: #1F2937;
+    margin: 0 10%;
+    font-style: italic;
+}
+
+.quote p {
+    margin: 0px; 
+    padding: 0px;
+}
+
+.quote_author {
+    margin-top: 10px;
+    text-align: end; 
 }
